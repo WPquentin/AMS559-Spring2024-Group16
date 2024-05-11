@@ -1,0 +1,14 @@
+const: [0.01, 0.02, 0.03, 0.04]
+use_wandb: False
+learning_rate: 4e-4
+weight_decay: 2e-5
+epochs: 250
+use_BC: True
+n_modes: 36
+domain_padding: None
+whether_shuffle: True
+norm_type: None
+split_bc: False
+using_sam: True
+using_long_data: True
+batch_size: 40

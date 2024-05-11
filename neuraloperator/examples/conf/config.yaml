@@ -1,0 +1,13 @@
+const: 0.01
+use_wandb: False
+learning_rate: 2e-4
+weight_decay: 1e-5
+epochs: 250
+use_BC: True
+n_modes: 32
+domain_padding: None
+whether_shuffle: True
+norm_type: None
+train_ratio: 0.9
+split_bc: False
+split_train_test_randomly: False

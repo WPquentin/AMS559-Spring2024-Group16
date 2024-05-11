@@ -1,0 +1,18 @@
+const:
+- 0.01
+- 0.02
+- 0.03
+- 0.04
+use_wandb: false
+learning_rate: 0.0004
+weight_decay: 2.0e-05
+epochs: 250
+use_BC: true
+n_modes: 36
+domain_padding: None
+whether_shuffle: true
+norm_type: None
+split_bc: false
+using_sam: true
+using_long_data: true
+batch_size: 40
